@@ -6,7 +6,7 @@
     "license": "CC(1.0)",
     "require": {
         "php": ">=5.6",
-        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/guzzle": "^7.0.1",
         "duncan3dc/sessions": "^1.0"
     },
     "require-dev": {
@@ -37,6 +37,11 @@
             "aliases": {
                 "Envato": "Nahid\\EnvatoPHP\\Facades\\Envato"
             }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
         }
     }
 }
